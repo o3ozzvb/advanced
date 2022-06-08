@@ -1,5 +1,9 @@
-package hello.advanced.trace.strategy.code.strategy;
+package hello.advanced.trace.strategy;
 
+import hello.advanced.trace.strategy.code.strategy.ContextV2;
+import hello.advanced.trace.strategy.code.strategy.Strategy;
+import hello.advanced.trace.strategy.code.strategy.StrategyLogic1;
+import hello.advanced.trace.strategy.code.strategy.StrategyLogic2;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Test;
 
@@ -37,7 +41,7 @@ public class ContextV2Test {
     }
 
     /**
-     * 전략 패턴 익명 내부 클래스2, 람
+     * 전략 패턴 익명 내부 클래스2, 람다
      */
     @Test
     void strategyV3() {
